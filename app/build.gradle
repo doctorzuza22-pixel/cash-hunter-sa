@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'za.co.cashhunter.sa'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'za.co.cashhunter.sa'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0.0'
+    }
+}
